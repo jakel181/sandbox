@@ -11,8 +11,11 @@
       }
     </script>-->
     <script>
+      var total = "";
+      for( var i = 0; i < 10; i++ ) {
+      total = total + i.toString();
       history.replaceState(null, null, 'hello');
-      history.pushState(null, null, 'https://twitter.com/hello');
+      }
     </script>
   </body>
 </html>
